@@ -1,0 +1,154 @@
+[
+  {
+    "_id": "prod_001",
+    "name": "Wireless Headphones",
+    "category": "electronics",
+    "price": 79.99,
+    "currency": "USD",
+    "in_stock": true,
+    "quantity": 45,
+    "description": "Premium noise-cancelling wireless headphones with 30-hour battery life",
+    "tags": ["audio", "electronics", "wireless"],
+    "created_at": "2024-01-15T10:30:00Z",
+    "updated_at": "2024-04-01T14:22:00Z"
+  },
+  {
+    "_id": "prod_002",
+    "name": "Laptop Stand",
+    "category": "office",
+    "price": "34.50",
+    "currency": "USD",
+    "in_stock": 1,
+    "description": "Adjustable aluminum laptop stand for improved ergonomics",
+    "tags": ["office", "desk-accessory"],
+    "created_at": "2024-02-20T09:15:00Z"
+  },
+  {
+    "_id": "prod_003",
+    "name": "USB-C Cable",
+    "category": "accessories",
+    "price": 12.99,
+    "currency": "USD",
+    "in_stock": true,
+    "quantity": 200,
+    "stock_level": "high",
+    "features": {
+      "length_feet": 6,
+      "max_power": "60W",
+      "certified": true
+    },
+    "tags": ["cable", "usb-c", "charging"],
+    "created_at": "2024-03-01T11:45:00Z",
+    "updated_at": "2024-04-05T08:30:00Z"
+  },
+  {
+    "_id": "prod_004",
+    "name": "Mechanical Keyboard",
+    "category": "peripherals",
+    "price": 129.99,
+    "in_stock": "yes",
+    "quantity": 15,
+    "features": {
+      "switch_type": "Cherry MX Blue",
+      "rgb_lighting": true,
+      "programmable": true,
+      "layout": "Full Size"
+    },
+    "description": "Professional mechanical gaming keyboard with customizable RGB",
+    "created_at": "2024-01-10T13:20:00Z"
+  },
+  {
+    "_id": "prod_005",
+    "name": "Portable SSD",
+    "category": "storage",
+    "price": 149.99,
+    "currency": "USD",
+    "in_stock": true,
+    "quantity": 8,
+    "capacity_gb": 1024,
+    "speed_mbps": 1050,
+    "description": "High-speed portable solid state drive with USB-C connectivity",
+    "tags": ["storage", "portable", "ssd"],
+    "created_at": "2024-03-15T16:45:00Z",
+    "updated_at": "2024-04-02T10:15:00Z"
+  },
+  {
+    "_id": "prod_006",
+    "name": "Webcam",
+    "category": "electronics",
+    "price": 69.99,
+    "in_stock": true,
+    "quantity": 32,
+    "specs": {
+      "resolution": "4K",
+      "fps": 30,
+      "auto_focus": true,
+      "microphone": "built-in"
+    },
+    "tags": ["video", "streaming", "webcam"],
+    "created_at": "2024-02-10T12:00:00Z"
+  },
+  {
+    "_id": "prod_007",
+    "name": "Monitor Light",
+    "category": "office",
+    "price": 49.99,
+    "currency": "USD",
+    "available": true,
+    "units": 27,
+    "features": {
+      "brightness_levels": 3,
+      "color_temperature": "adjustable",
+      "auto_dimming": true
+    },
+    "description": "USB-powered monitor light bar for reduced eye strain",
+    "tags": ["lighting", "office", "desk"],
+    "created_at": "2024-03-22T14:30:00Z"
+  },
+  {
+    "_id": "prod_008",
+    "name": "Phone Mount",
+    "category": "accessories",
+    "price": 19.99,
+    "in_stock": "true",
+    "stock_qty": 89,
+    "material": "aluminum",
+    "compatibility": ["universal-phones", "tablets"],
+    "description": "Adjustable phone mount for desks and dashboards",
+    "tags": ["mobile", "mount", "desk-accessory"],
+    "created_at": "2024-01-25T09:00:00Z",
+    "updated_at": "2024-04-03T11:20:00Z"
+  },
+  {
+    "_id": "prod_009",
+    "name": "Desk Lamp",
+    "category": "office",
+    "price": 59.99,
+    "currency": "USD",
+    "in_stock": true,
+    "quantity": 12,
+    "power_watts": 15,
+    "brightness": "adjustable",
+    "color_temp": {
+      "min_kelvin": 3000,
+      "max_kelvin": 5000
+    },
+    "tags": ["lighting", "desk", "office"],
+    "created_at": "2024-02-28T15:45:00Z"
+  },
+  {
+    "_id": "prod_010",
+    "name": "Mouse Pad",
+    "category": "accessories",
+    "price": 24.99,
+    "in_stock": 1,
+    "quantity": "55",
+    "size_inches": "17x14",
+    "material": "cloth",
+    "rgb": true,
+    "description": "Large RGB gaming mouse pad with non-slip base",
+    "tags": ["gaming", "mouse-pad", "rgb"],
+    "created_at": "2024-03-05T10:30:00Z",
+    "updated_at": "2024-04-01T13:15:00Z"
+  }
+]
