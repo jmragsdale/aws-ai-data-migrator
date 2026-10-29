@@ -1,4 +1,53 @@
-# AWS AI Data Migrator
+<a id="aws-ai-data-migrator"></a>
+
+<a href="#setup-guide">
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/readme/header-mobile.png">
+  <img src="docs/assets/readme/header.png" width="1440" alt="AWS AI Data Migrator. A Python CLI reference for AI-assisted migration to S3 and DynamoDB, with connectors, data-protection helpers and Terraform infrastructure.">
+</picture>
+</a>
+
+<p>
+  <a href="#setup-guide"><strong>Start here ↗</strong></a> &nbsp; / &nbsp;
+  <a href="src/cli.py">Source</a> &nbsp; / &nbsp;
+  <a href="#project-guide">Project guide</a> &nbsp; / &nbsp;
+  <a href="https://github.com/jmragsdale">Profile</a>
+</p>
+
+A Python CLI reference for AI-assisted migration to S3 and DynamoDB, with connectors, data-protection helpers and Terraform infrastructure.
+
+## Explore the project
+
+Open a card for source, examples or supporting documentation.
+
+<p>
+<a href="#setup-guide">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/setup-dark.png">
+  <img src="docs/assets/readme/setup-light.png" width="360" alt="Review the setup guide. Read prerequisites and setup steps before adapting the example.">
+</picture>
+</a>
+<a href="src/cli.py">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/source-dark.png">
+  <img src="docs/assets/readme/source-light.png" width="360" alt="Inspect the CLI implementation. Review command routing and the data-migration entry points.">
+</picture>
+</a>
+<a href="src/security/pii_scanner.py">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/protection-dark.png">
+  <img src="docs/assets/readme/protection-light.png" width="360" alt="Inspect PII-handling helpers. Read the data-scanning helper and its implementation limits.">
+</picture>
+</a>
+<a href="docs/architecture.md">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/architecture-dark.png">
+  <img src="docs/assets/readme/architecture-light.png" width="360" alt="Follow the architecture. Review the components and the documented processing or access flow.">
+</picture>
+</a>
+</p>
+
+## Project guide
 
 An intelligent, LLM-powered CLI tool for migrating unstructured data to AWS S3 and DynamoDB. Uses Claude AI to automatically analyze data schemas, resolve inconsistencies, and generate optimized migration plans.
 
@@ -13,6 +62,8 @@ An intelligent, LLM-powered CLI tool for migrating unstructured data to AWS S3 a
 - **Data Validation**: Post-migration integrity checks
 - **Cost Estimation**: Monthly AWS cost projections
 - **Rollback Support**: Complete rollback capability via manifest tracking
+
+<a id="setup-guide"></a>
 
 ## Installation
 
@@ -171,6 +222,9 @@ This command:
 
 ## Project Structure
 
+<details>
+<summary>Architecture flow (text)</summary>
+
 ```
 aws-ai-data-migrator/
 ├── src/
@@ -224,6 +278,8 @@ aws-ai-data-migrator/
 ├── CHANGELOG.md
 └── DEVLOG.md
 ```
+
+</details>
 
 ## Testing
 
@@ -332,3 +388,10 @@ For issues and questions:
 - [ ] Data quality scoring
 - [ ] Advanced partitioning strategies
 - [ ] Event-driven triggers
+
+<details>
+<summary>README visual assets</summary>
+
+[Artwork sources and regeneration notes](docs/assets/readme/README.md).
+
+</details>
