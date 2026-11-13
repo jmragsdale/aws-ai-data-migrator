@@ -8,12 +8,12 @@ setup(
     python_requires=">=3.9",
     packages=find_packages(),
     install_requires=[
-        "anthropic==0.34.0",
+        "anthropic==2.8.0",
         "boto3==1.34.0",
         "click==8.1.7",
-        "pymongo==4.6.0",
+        "pymongo==4.20.0",
         "rich==13.7.0",
-        "python-dotenv==1.0.0",
+        "python-dotenv==1.2.4",
     ],
     entry_points={
         "console_scripts": [
@@ -22,8 +22,8 @@ setup(
     },
     extras_require={
         "dev": [
-            "pytest==7.4.3",
-            "pytest-cov==4.1.0",
+            "pytest==9.2.0",
+            "pytest-cov==7.1.0",
             "moto==4.2.9",
         ],
     },

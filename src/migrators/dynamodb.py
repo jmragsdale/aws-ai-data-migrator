@@ -114,9 +114,9 @@ class DynamoDBMigrator:
 
             while retries < max_retries:
                 try:
-                    with table.batch_writer(
-                        batch_size=len(batch), overwrite_by_pkeys=["id"]
-                    ) as writer:
+                    # batch_writer() has no batch_size argument; it flushes
+                    # in DynamoDB's 25-item chunks on its own.
+                    with table.batch_writer(overwrite_by_pkeys=["id"]) as writer:
                         for item in batch:
                             writer.put_item(Item=item)
 
