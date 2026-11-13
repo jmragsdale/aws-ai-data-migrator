@@ -22,7 +22,7 @@ class TestMigrationPlanner:
                 '"s3_organization": {"bucket_naming": "test-bucket"}}'
             )
         ]
-        mock_response.model = "claude-3-5-sonnet-20241022"
+        mock_response.model = "claude-haiku-5-5"
         mock_client.messages.create.return_value = mock_response
 
         planner = MigrationPlanner("sk-ant-test-key")
