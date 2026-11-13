@@ -8,7 +8,7 @@ setup(
     python_requires=">=3.9",
     packages=find_packages(),
     install_requires=[
-        "anthropic==0.34.0",
+        "anthropic==2.8.0",
         "boto3==1.34.0",
         "click==8.1.7",
         "pymongo==4.20.0",
